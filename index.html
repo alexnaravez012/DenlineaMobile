@@ -10,6 +10,7 @@
     <script src="./data/app.js"></script>
     <link href="./fontawesome-web/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="./data/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Denlíne@</title>
 </head>
 
@@ -73,8 +74,8 @@
             <!--Menu bars overflow-->
             <ul class="uk-padding-remove">
                 <div class="uk-flex">
-                    <div class="style-overflow-ventas">
-                        <ul class="uk-list">
+                    <div class="style-overflow-ventas" id="div-scroll" onscroll="repeatMenu()">
+                        <ul class="uk-list" id="list-user">
                             <div>
                                 <li class=" uk-margin-remove uk-flex uk-flex-middle cursor-pointer items-menu">
                                     <img src="data/1.png " alt=" ">
