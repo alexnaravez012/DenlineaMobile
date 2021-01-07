@@ -17,8 +17,8 @@
 }
 
 .logo13-size {
-    height: 14%;
-    width: 14%;
+    height: 90%;
+    width: 90%;
 }
 
 .cursor-pointer {
@@ -182,11 +182,11 @@
 .buttom-search-cat {
     border-radius: 20px;
     border: 1px black solid;
-    font-size: 17px;
-    padding-bottom: 2px;
-    padding-left: 12px;
-    padding-right: 12px;
-    margin-left: 10px;
+    font-size: 16px;
+    padding-bottom: 1px;
+    padding-left: 11px;
+    padding-right: 11px;
+    margin-left: 9px;
 }
 
 .img-size-1 {
@@ -300,7 +300,6 @@
 
 .background-menus {
     z-index: 300;
-    height: 100em !important;
     position: absolute;
     width: 100% !important;
     background-color: rgba(0, 0, 0, 0.3);
@@ -338,7 +337,19 @@
     padding-left: 10px;
     max-height: 280px !important;
     overflow: auto;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(247, 247, 247);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.style-menu-information {
+    background-color: white;
+    margin-left: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 .items-menu {
@@ -426,21 +437,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 640px) {
-    .nav-bar-top {
-        display: none;
-    }
-    .nav-bar-top-responsive {
-        display: block;
-    }
-    .lateral-menu {
-        display: none;
-    }
-    .dashboard-padding {
-        padding-left: 10px;
-        padding-top: 10px;
-    }
-    .productos-disable {
-        display: block;
-    }
+.button-select-img {
+    background: none;
+    border: none;
 }
