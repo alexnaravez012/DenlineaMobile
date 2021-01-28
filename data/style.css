@@ -204,11 +204,13 @@
 .background-green-buy {
     background-color: #98FB98;
     border-radius: 5px;
+    width: 100px;
+    padding-right: 20px;
 }
 
 .text-img-buy {
     color: black;
-    left: 34px;
+    left: 15px;
     bottom: -10px;
 }
 
@@ -440,4 +442,90 @@
 .button-select-img {
     background: none;
     border: none;
+}
+
+.button-select-search-option {
+    width: 200px;
+    height: 80px;
+}
+
+.button-select-search-cat {
+    width: 250px;
+    height: 80px;
+}
+
+.padding-horizontal-40 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.buttom-search-cat {
+    border-radius: 20px;
+    border: 1px black solid;
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+}
+
+.button-select-search-cat {
+    width: 250px;
+    height: 80px;
+}
+
+.style-menu-categories {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.scrollhorizontal {
+    width: calc(100% - 40px);
+    margin: 20px;
+    overflow-x: scroll;
+    padding-bottom: 10px;
+}
+
+.scrollhorizontal::-webkit-scrollbar {
+    width: 5px !important;
+    height: 5px !important;
+}
+
+.scrollhorizontal::-webkit-scrollbar-button {
+    width: 5px !important;
+    height: 5px !important;
+}
+
+.scrollhorizontal::-webkit-scrollbar-thumb {
+    background: #c2c2c2;
+    border: 10px none #ffffff;
+    border-radius: 85px;
+}
+
+.scrollhorizontal::-webkit-scrollbar-thumb:hover {
+    background: #8f8f8f;
+}
+
+.scrollhorizontal::-webkit-scrollbar-thumb:active {
+    background: #3d3d3d;
+}
+
+.scrollhorizontal::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 10px none #ffffff;
+    border-radius: 78px;
+}
+
+.scrollhorizontal::-webkit-scrollbar-track:hover {
+    background: #ffffff;
+}
+
+.scrollhorizontal::-webkit-scrollbar-track:active {
+    background: #adadad;
+}
+
+.scrollhorizontal::-webkit-scrollbar-corner {
+    background: transparent;
 }

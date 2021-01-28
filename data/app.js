@@ -22,6 +22,18 @@ function openMenu(type) {
         document.getElementById("menu-users").classList.remove("show");
         document.getElementById("menu-options").classList.remove("show");
     }
+    if (type == 'categories') {
+        document.getElementById("menu-categories").setAttribute("style", `height: ${higthMax}px !important`);
+        document.getElementById("menu-categories").classList.toggle("show");
+    }
+    if (type == 'subcategories') {
+        document.getElementById("menu-subcategories").setAttribute("style", `height: ${higthMax}px !important`);
+        document.getElementById("menu-subcategories").classList.toggle("show");
+    }
+    if (type == 'categories-basket') {
+        document.getElementById("menu-categories-basket").setAttribute("style", `height: ${higthMax}px !important`);
+        document.getElementById("menu-categories-basket").classList.toggle("show");
+    }
 }
 
 function repeatMenu() {
@@ -71,6 +83,10 @@ function repeatMenu() {
         <li class=" uk-margin-remove uk-flex uk-flex-middle cursor-pointer items-menu padding-top-20 ">
             <img class="padding-right-30 " src="data/10.png " alt=" ">
             <h4 class="uk-text-bold uk-margin-remove color-blue ">Contabilidad</h4>
-        </li>`
+        </li>
+        <li class=" uk-margin-remove uk-flex uk-flex-middle cursor-pointer items-menu padding-top-20 ">
+        <img class="padding-right-30 " src="data/14.png " alt=" ">
+        <h4 class="uk-text-bold uk-margin-remove color-blue ">Mesas</h4>
+    </li>`
     }
 }
