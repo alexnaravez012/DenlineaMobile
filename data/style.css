@@ -228,6 +228,10 @@
     background-size: 100% auto;
 }
 
+.img-items-products:hover {
+    border: 1px solid black;
+}
+
 .img-items-products-add {
     min-width: 120px;
     max-width: 120px;
@@ -528,4 +532,76 @@
 
 .scrollhorizontal::-webkit-scrollbar-corner {
     background: transparent;
+}
+
+.background-green-buy-galery {
+    background-color: #98FB98;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+.text-img-buy-galery {
+    color: black;
+    left: 22px;
+    bottom: -13px;
+}
+
+.background-grey-galery {
+    background-color: #F2F2F2;
+    height: 450px;
+    width: 100%;
+}
+
+.color-yellow-star {
+    color: #E69D2F;
+}
+
+.size-img-galery {
+    height: 350px;
+    width: 350px;
+}
+
+.img-items-galery {
+    height: 90px;
+    width: 85px;
+    border-radius: 20px;
+    background-position: 50%;
+    background-size: 100% auto;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.button-galery-options {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 25px;
+    width: 55px;
+    padding-top: 5px;
+}
+
+.img-items-galery-relation {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-position: 50%;
+    background-size: 100% auto;
+    margin: 5px;
+}
+
+.img-size-buy-car {
+    width: 35px;
+    height: 35px;
+}
+
+.box-green {
+    background-color: #B1FFA6;
+    height: 60px;
+    width: 180px;
+    border-radius: 5px;
+}
+
+.size-shopping-cart {
+    height: 40px;
+    width: 40px;
 }
