@@ -206,7 +206,7 @@
         </ul>
     </div>
     <!--Contenido para pestaña para tab productos por lista-->
-    <div style="display: none;">
+    <div style="display: inline;">
         <div class="uk-flex uk-flex-middle uk-box-shadow-medium uk-flex-between padding-horizontal-20 padding-vertical-10">
             <i class="fas fa-search " style="color: black; font-size: 20px; padding-right: 10px ; "></i>
             <form class="uk-search uk-search-medium">
@@ -363,15 +363,15 @@
         <div id="menu-categories" class="background-menus">
             <div class="uk-margin-remove-right style-menu-categories">
                 <ul class="uk-list">
-                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-10">Industrial</h5>
-                    <div class="hr-tab uk-margin-remove"></div>
-                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-10">Comidas</h5>
-                    <div class="hr-tab uk-margin-remove"></div>
-                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-10">Accesorios</h5>
-                    <div class="hr-tab uk-margin-remove"></div>
-                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-10">Bicicletas</h5>
-                    <div class="hr-tab uk-margin-remove"></div>
-                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-10">Deportivo</h5>
+                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-15">Industrial</h5>
+                    <div class="hr-tab color-grey uk-margin-remove"></div>
+                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-15">Comidas</h5>
+                    <div class="hr-tab color-grey uk-margin-remove"></div>
+                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-15">Accesorios</h5>
+                    <div class="hr-tab color-grey uk-margin-remove"></div>
+                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-15">Bicicletas</h5>
+                    <div class="hr-tab color-grey uk-margin-remove"></div>
+                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-15">Deportivo</h5>
                 </ul>
             </div>
         </div>
@@ -400,11 +400,11 @@
         <div id="menu-subcategories" class="background-menus">
             <div class="uk-margin-remove-right style-menu-categories">
                 <ul class="uk-list">
-                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-10">Mocacines formales</h5>
-                    <div class="hr-tab uk-margin-remove"></div>
-                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-10">Mocacines informales</h5>
-                    <div class="hr-tab uk-margin-remove"></div>
-                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-10">Mocaciones deportivos</h5>
+                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-15">Mocacines formales</h5>
+                    <div class="hr-tab color-grey uk-margin-remove"></div>
+                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-15">Mocacines informales</h5>
+                    <div class="hr-tab color-grey uk-margin-remove"></div>
+                    <h5 class="uk-margin-remove uk-text-center uk-text-bold padding-vertical-15">Mocaciones deportivos</h5>
                 </ul>
             </div>
         </div>
@@ -414,8 +414,9 @@
             <div class="uk-flex " style="margin-top: 5px;">
                 <div class="uk-width-1-3" style="position: relative;">
                     <div class="img-items-products-add" style="background-image: url(./data/shoes1.png);" uk-img></div>
-                    <a href=" ">
-                        <img class="like-size" style="position: absolute;" src="./data/Like-activado.png " alt=" ">
+                    <a href="#" uk-toggle="target: .like-active">
+                        <img class="like-size like-active" style="position: absolute; " src="./data/Like-desactivado.png " alt=" ">
+                        <img class="like-size like-active" style="position: absolute; " src="./data/Like-activado.png " alt=" " hidden>
                     </a>
                 </div>
                 <div class="uk-width-1-3 uk-flex uk-flex-middle" style="padding-left: 10px;">
@@ -431,8 +432,9 @@
             <div class="uk-flex " style="margin-top: 5px; ">
                 <div class="uk-width-1-3 " style="position: relative; ">
                     <div class="img-items-products-add" style="background-image: url(./data/shoes1.png); " uk-img></div>
-                    <a href=" ">
-                        <img class="like-size " style="position: absolute; " src="./data/Like-desactivado.png " alt=" ">
+                    <a href="#" uk-toggle="target: .like-active-1">
+                        <img class="like-size like-active-1" style="position: absolute; " src="./data/Like-desactivado.png " alt=" ">
+                        <img class="like-size like-active-1" style="position: absolute; " src="./data/Like-activado.png " alt=" " hidden>
                     </a>
                 </div>
                 <div class="uk-width-1-3 uk-flex uk-flex-middle" style="padding-left: 10px;">
@@ -449,8 +451,9 @@
                 <div class="uk-width-1-3 " style="position: relative; ">
                     <div style="position: relative; ">
                         <div class="img-items-products-add" style="background-image: url(./data/shoes1.png); " uk-img></div>
-                        <a href=" ">
-                            <img class="like-size " style="position: absolute; " src="./data/Like-desactivado.png " alt=" ">
+                        <a href="#" uk-toggle="target: .like-active-2">
+                            <img class="like-size like-active-2" style="position: absolute; " src="./data/Like-desactivado.png " alt=" ">
+                            <img class="like-size like-active-2" style="position: absolute; " src="./data/Like-activado.png " alt=" " hidden>
                         </a>
                     </div>
                     <h6 class="discount uk-text-center " style="position: absolute; ">25%</h6>
@@ -469,8 +472,9 @@
                 <div class="uk-width-1-3 " style="position: relative; ">
                     <div style="position: relative; ">
                         <div class="img-items-products-add" style="background-image: url(./data/shoes1.png); " uk-img></div>
-                        <a href=" ">
-                            <img class="like-size " style="position: absolute; " src="./data/Like-desactivado.png " alt=" ">
+                        <a href="#" uk-toggle="target: .like-active-3">
+                            <img class="like-size like-active-3" style="position: absolute; " src="./data/Like-desactivado.png " alt=" ">
+                            <img class="like-size like-active-3" style="position: absolute; " src="./data/Like-activado.png " alt=" " hidden>
                         </a>
                     </div>
                     <h6 class="discount uk-text-center " style="position: absolute; ">50%</h6>
@@ -488,7 +492,7 @@
         </div>
     </div>
     <!-- Galeria -->
-    <div style="display: inline;">
+    <div style="display: none;">
         <!--Navbar gallery-->
         <div class="uk-flex uk-flex around uk-flex-middle uk-box-shadow-medium">
             <div class="uk-width-1-2 uk-flex uk-flex-center">

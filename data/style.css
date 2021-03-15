@@ -40,6 +40,20 @@
     padding-bottom: 10px;
 }
 
+.padding-vertical-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.color-grey {
+    color: rgb(153, 153, 153);
+}
+
+.padding-vertical-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .padding-horizontal-5 {
     padding-right: 5px;
     padding-left: 5px;
@@ -465,7 +479,7 @@
 
 .buttom-search-cat {
     border-radius: 20px;
-    border: 1px black solid;
+    border: 1px rgb(153, 153, 153) solid;
     font-size: 16px;
     width: 200px;
     height: 40px;
@@ -548,7 +562,6 @@
 }
 
 .background-grey-galery {
-    background-color: #F2F2F2;
     height: 450px;
     width: 100%;
 }
@@ -568,12 +581,12 @@
     border-radius: 20px;
     background-position: 50%;
     background-size: 100% auto;
-    border: 1px solid black;
+    border: 1px solid rgb(153, 153, 153);
     margin: 5px;
 }
 
 .button-galery-options {
-    border: 1px solid black;
+    border: 1px solid rgb(153, 153, 153);
     border-radius: 10px;
     height: 25px;
     width: 55px;
